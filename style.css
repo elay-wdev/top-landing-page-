@@ -1,0 +1,101 @@
+
+/* Overall styling */
+
+* {
+
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h2, a, p {
+	font-size: 17px;
+	color: #e5e7eb;
+}
+
+.hero_heading {
+	font-size: 48px;
+	color: #f9faf8;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ////////////// */
+
+main {
+	width: 100%;
+	height: 100vh;
+	background-color: #1F2937;
+}
+
+.oal_hero_center {
+
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-links {
+	display: flex;
+	gap: 0 20px;
+	color: #b7bbc1;
+
+}	
+
+#logo {
+
+	font-size: 22px;
+	color: #03a9f4;
+	font-weight: bold;
+}
+
+
+.hero_content {
+
+	width: 100%;
+	height: calc(100vh - 70px);
+	display: flex;
+	align-items: center;
+}
+
+.hero_texts {
+
+	flex: 1;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	gap: 19px 0;
+	justify-content: center;
+}
+
+
+.hero_img {
+
+	flex: 1;
+	height: 320px;
+	background-image: url(images/cris.jpeg);
+	background-size: cover;
+}
+
+button {
+	width: 120px;
+	padding: 16px;
+	background-color: #3b82f6;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
