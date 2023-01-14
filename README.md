@@ -1,4 +1,11 @@
 # top-landing-page
-a simple landing page for the odin project
 
-Skills : HTML/CSS, FLexbox 
+This is a simple landing page for the odin project test!
+
+	Skills : 
+	
+	HTML
+	CSS
+	FLexbox 
+	
+	made with love.
